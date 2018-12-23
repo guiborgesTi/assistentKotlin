@@ -50,9 +50,10 @@ dependencies {
 	compile('org.flywaydb:flyway-core')
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
-	runtime('org.springframework.boot:spring-boot-devtools')
 
+	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('org.postgresql:postgresql:42.1.4')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
 }
